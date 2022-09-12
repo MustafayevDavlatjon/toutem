@@ -1,0 +1,50 @@
+.footer{
+	padding-bottom: 35px;
+	padding-top: 35px;
+	background: #F3F4F6;
+	border: 0.5px solid #F3F4F6;
+}
+
+
+.footer__content{
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+	margin: 0 auto;
+	max-width: 565px;
+	max-height: 163px;
+	gap: 60px;
+}
+.footer__item-title{
+	text-align: center;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 135%;
+	color: $color-Very-Light-Malachite-Green;
+}
+
+.footer__items{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.footer__item-list a{
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 135%;
+	text-align: center;
+	color: $color-Cadet-Grey;
+}
+
+.footer__item-list li{
+	text-align: center;
+}
+
+.footer__copy{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 135%;
+	text-align: center;
+	color: $color-AuroMetalSaurus;
+}

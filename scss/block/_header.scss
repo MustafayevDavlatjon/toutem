@@ -1,0 +1,77 @@
+.header{
+	width: 100%;
+	height: 69px;
+	padding: 24px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: $color-White;
+	z-index: 10;
+}
+
+.header__icons{
+	padding-right: 15px;
+}
+
+
+.header__content{
+	padding: 0 15px;
+	display: flex;
+	align-items: center;
+}
+
+.header__bag{
+	margin-right: 14px;
+}
+
+.header__menu{
+	flex: 1 1 auto;
+}
+
+
+.burger{
+	display: none;
+}
+
+.burger::after {
+	content: "";
+	width: 20px;
+	height: 2px;
+	background-color: $color-Black;
+	display: block;
+	margin: 5px 0;
+}
+
+.burger::before {
+	content: "";
+    width: 20px;
+	height: 2px;
+	background-color: $color-Black;
+	display: block;
+	margin: 5px 0;
+}
+
+.menu__list a,
+.mobile__list a{
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	color: $color-Yankees-Blue;
+	transition: 0.2s all;
+}
+
+.menu__list a:hover{
+	color: $color-Very-Light-Malachite-Green;
+}
+
+
+.menu__list{
+	display: flex;
+	gap: 14px;
+	justify-content: center;
+	align-items: center;
+}
+
+.mobile-menu{
+	visibility: hidden;
+}

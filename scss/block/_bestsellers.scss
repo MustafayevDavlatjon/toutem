@@ -1,0 +1,112 @@
+.bestsellers{
+	padding-bottom: 110px;
+	max-width: 1500px;
+	margin: 0 auto;
+	background-image: url("../img/bestseller-flower.png");
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-size: 18%;
+}
+
+
+.bestsellers .card__info-1,
+.bestsellers .card__info-2{
+	display: inline-block;
+	background-image: url('../img/bestseller-1.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 390px;
+	max-width: 375px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.bestsellers .card__info-2{
+	background-image: url('../img/bestsellers-2.png');
+}
+
+.bestsellers__container{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bestsellers__button{
+	display: inline-block;
+	text-align: center;
+	min-width: 274px !important;
+}
+
+.info__title{
+	margin-bottom: 30px;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 107.9%;
+	letter-spacing: 0.01em;
+	color: $color-Very-Light-Malachite-Green;
+}
+
+.card__info{
+	padding: 10px;
+	background-color: #ffffffb3;
+	backdrop-filter: blur(15px);
+	border-radius: 0px 20px;	
+}
+
+.card__info-title{
+	display: inline-block;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 140%;
+	color: $color-Yankees-Blue;
+}
+
+.cards{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 45px;
+}
+
+.card__info-icon{
+	height: 70px;
+	width: 100px;
+	padding-left: 10px;
+}
+
+.cards__items{
+	display: flex;
+	gap: 20px;
+}
+
+.card__info-price{
+	margin-left: 10px;
+	vertical-align: middle;
+	padding: 2px 5px;
+	display: inline-block;
+	width: 32px;
+	height: 15px;
+	background-color: $color-Very-Light-Malachite-Green;
+	border-radius: 30px;
+	color: $color-White;
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 97.9%;
+	text-align: center;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+}
+
+.card__info-body{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card__info-text{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 140%;
+	color: $color-AuroMetalSaurus;
+}

@@ -1,0 +1,21 @@
+.button{
+	@include button;
+}
+
+.button__green{
+	background-color: $color-Very-Light-Malachite-Green;
+	color: $color-White;
+	&:hover {
+		color: $color-Black;
+		background-color: $color-White;
+	}
+}
+
+.button__white{
+	background-color: $color-White;
+	color: $color-Black;
+	&:hover {
+		color: $color-White;
+		background-color: $color-Very-Light-Malachite-Green;
+	}
+}

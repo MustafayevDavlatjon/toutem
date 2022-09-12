@@ -1,0 +1,48 @@
+.about{
+	margin: 0 auto;
+	max-width: 1500px;
+	background-image: url("../img/ellipse-left.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+	min-height: 887px;
+}
+
+.mobile-ellipse{
+	display: none;
+}
+
+.about__container{
+	min-height: 887px;
+	display: flex;
+	align-items: center;
+}
+
+
+.about__content{
+	padding-top: 100px;
+	padding-right: 15px;
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+}
+.about__title{
+	margin-bottom: 35px;
+	max-width: 573px;
+	font-weight: 600;
+	font-size: 45px;
+	line-height: 107.9%;
+	text-align: right;
+	letter-spacing: 0.01em;
+	color: $color-Very-Light-Malachite-Green;
+}
+
+.about__text{
+	margin-bottom: 35px;
+	width: 374px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 140%;
+	text-align: right;
+	color: $color-Cadet-Grey;
+}

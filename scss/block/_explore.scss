@@ -1,0 +1,46 @@
+.explore-cards{
+	padding-top: 154px;
+}
+
+.explore__items{
+	display: flex;
+	justify-content: center;
+}
+.explore__item{
+	transition: 0.3s all;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 274px;
+	width: 274px;
+	background: #F9FAFB;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+	border-radius: 0px 20px;
+}
+
+.explore__item:hover{
+	background-color: $color-Very-Light-Malachite-Green;
+}
+
+.explore__item:hover .explore-item__text{
+	color: $color-White;
+}
+
+.explore__item:hover .explore__icon{
+	background-image: url("../img/white-blob.png");
+}
+.explore-item__text{
+	padding-top: 20px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 140%;
+	color: $color-Very-Light-Malachite-Green;
+}
+
+.explore__icon{
+	background-image: url("../img/green_blob.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}

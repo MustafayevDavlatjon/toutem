@@ -1,0 +1,38 @@
+.trends{
+	padding-top: 115px;
+	padding-bottom: 110px;
+	max-width: 1500px;
+	margin: 0 auto;
+	background-image: url("../img/trends-flower.png");
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-size: 18%;
+}
+.trends .card__info-1,
+.trends .card__info-2{
+	display: inline-block;
+	background-image: url('../img/trends-1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 390px;
+	max-width: 375px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.trends .card__info-2{
+	background-image: url('../img/trends-2.png');
+}
+.trends__container{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.trends__button{
+	display: inline-block;
+	text-align: center;
+	min-width: 274px !important;
+}
